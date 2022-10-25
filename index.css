@@ -31,3 +31,18 @@
   border-style: solid;
   border-radius: 50%;
 }
+
+*/
+
+.carousel-item {
+  height: 32rem;
+  color: white;
+  background-color: #777;
+  position: relative;
+}
+
+.carousel-container {
+  position: absolute;
+  bottom: 0;
+  background-position: center;
+}

@@ -1,110 +1,250 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Graham Booth</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="index.css" />
-    
   </head>
   <body class="bg-light">
     <a name="top"></a>
-        <nav class="navbar fixed-top navbar-expand-sm navbar-light bg-light">
-            <div class="container">
-                <h1>Graham Booth</h1>
-            </a>
-            <button
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            class="navbar-toggler"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle Navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item active">
-                  <a href="#about" class="nav-link active"> About Me </a>
-                  <li class="nav-item active">
-                    <a href="#portfolio" class="nav-link active"> My Portfolio </a>
-                <li class="nav-item active">
-                  <a href="#contact" class="nav-link active"> Contact Me </a>
-                </li>
-              </ul>
-            </div>
-            </div>
-            
-        </nav>
-        <div class="container" id="main-container">
-            <div class="row">
-              <a name="about"></a>
-              <h2>About Me</h2>
-                <div class="row centered-image circle-image col-12 col-md-6 col-lg-4">
-                    <img src="images/Me.jpg" alt="A Picture of Graham">
-                </div>
-                <div class="col-12 col-md-6 col-lg-8">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                  <p class="return"><a href="#top">Back to top</a></p>
-                </div>
-              <a name="portfolio"></a>
-              <h2>My Portfolio</h2>    
-        </div>
+    <nav class="navbar fixed-top navbar-expand-sm navbar-light bg-light">
+      <div class="container">
+        <h1>Graham Booth</h1>
+        <button
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          class="navbar-toggler"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle Navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a href="#about" class="nav-link active"> About Me </a>
+            </li>
 
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
-<ol class="carousel-indicators">
-  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-  <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
-  <li data-target="#myCarousel" data-slide-to="2" class="active"></li>
-</ol>
-        <div class="carousel-inner">
-        
-          <div class="carousel-item active">
-          <div class="carousel-container col-10 col-md-6 col-lg-8 offset-1 offset-md-3 offset-lg-2" style="background-image: url(images/logo.png)">
-            <h1>BiGeGG Website</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            <p class="return"><a href="#top">Back to top</a></p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="carousel-container col-10 col-md-6 col-lg-8 offset-1 offset-md-3 offset-lg-2">
-            <h1>OOP Adventure Game</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            <p class="return"><a href="#top">Back to top</a></p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="carousel-container col-10 col-md-6 col-lg-8 offset-1 offset-md-3 offset-lg-2">
-            <h1>Javascript Quiz</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            <p class="return"><a href="#top">Back to top</a></p>
-          </div>
+            <li class="nav-item active">
+              <a href="#portfolio" class="nav-link active"> My Portfolio </a>
+            </li>
+
+            <li class="nav-item active">
+              <a href="#contact" class="nav-link active"> Contact Me </a>
+            </li>
+          </ul>
         </div>
       </div>
-      <a href="#myCarousel" class="carousel-control-prev" role="button" data-slide="prev">
-        <span class="sr-only"></span>
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      </a>
-      <a href="#myCarousel" class="carousel-control-next" role="button" data-slide="next">
-        <span class="sr-only"></span>
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      </a>
+    </nav>
+    <div class="container" id="main-container">
+      <div class="row">
+        <a name="about"></a>
+        <h2>About Me</h2>
+
+        <div class="row centered-image circle-image col-12 col-md-6 col-lg-4">
+          <img src="images/Me.jpg" alt="A Picture of Graham" />
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-8">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          <p class="return"><a href="#top">Back to top</a></p>
+        </div>
+        <a name="portfolio"></a>
+        <h2>My Portfolio</h2>
+      </div>
+
+      <!-- <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="2" class="active"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div
+              class="carousel-container col-10 col-md-6 col-lg-8 offset-1 offset-md-3 offset-lg-2"
+              style="background-image: url(images/logo.png)"
+            >
+              <h1>BiGeGG Website</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </p>
+              <p class="return"><a href="#top">Back to top</a></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div
+              class="carousel-container col-10 col-md-6 col-lg-8 offset-1 offset-md-3 offset-lg-2"
+            >
+              <h1>OOP Adventure Game</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </p>
+              <p class="return"><a href="#top">Back to top</a></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div
+              class="carousel-container col-10 col-md-6 col-lg-8 offset-1 offset-md-3 offset-lg-2"
+            >
+              <h1>Javascript Quiz</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </p>
+              <p class="return"><a href="#top">Back to top</a></p>
+            </div>
+          </div>
+        </div>
+        <a
+          href="#myCarousel"
+          class="carousel-control-prev"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="sr-only"></span>
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </a>
+        <a
+          href="#myCarousel"
+          class="carousel-control-next"
+          role="button"
+          data-slide="next"
+        >
+          <span class="sr-only"></span>
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </a>
+      </div> -->
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="images/logo.png"
+              class="d-block w-75 centered-image"
+              alt="BiGeGG Logo"
+            />
+            <div class="carousel-text">
+              <h3>BiGeGG Website</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/logo.png"
+              class="d-block w-75 centered-image"
+              alt="BiGeGG Logo"
+            />
+            <div class="carousel-text">
+              <h3>OOP Adventure Game</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/logo.png"
+              class="d-block w-75 centered-image"
+              alt="BiGeGG Logo"
+            />
+            <div class="carousel-text">
+              <h3>Javascript Quiz</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     </div>
+
+    <p class="return"><a href="#top">Back to top</a></p>
 
     <div class="container" id="main-container">
       <div class="row">
         <a name="contact"></a>
         <h2>Contact Me</h2>
-          </div>
-          <div class="col-12 col-md-6 col-lg-8">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <p class="return"><a href="#top">Back to top</a></p>
-          </div>   
-  </div>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+      </div>
+      <div class="col-12 col-md-6 col-lg-8">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+        <p class="return"><a href="#top">Back to top</a></p>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+      integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
